@@ -290,4 +290,4 @@ splitHead :: [a] -> (a, [a])
 -- elemento de la lista, y la segunda componente es esa lista pero sin el primero. 
 -- Nota: tener en cuenta que el constructor de listas es :
 splitHead  (x:xs) = (x, xs)
--- la lista no tiene que estar vacia
+-- la lista no tiene que estar vacia 
